@@ -16,7 +16,7 @@ const generateCompChoice=()=>{
 const drawGame=()=>{
     // alert("game drawn");
     msg.innerText="Game drawn, play your move again.";
-    msg.style.backgroundColor="081b31";
+    msg.style.backgroundColor="black";
 
 }
 const showWinner=(userWin, userChoice, compChoice)=>{
